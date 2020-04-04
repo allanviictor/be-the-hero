@@ -19,6 +19,7 @@ module.exports = {
             'ongs.city',
             'ongs.uf'
         ])
+        console.log(incidents)
 
         response.header('X-total-Count', count['count(*)'])
 
